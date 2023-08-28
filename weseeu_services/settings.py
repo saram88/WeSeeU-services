@@ -18,7 +18,7 @@ ALLOWED_HOSTS = ['8000-saram88-weseeuservices-yxzz3c49wtb.ws-eu104.gitpod.io']
 
 # Application definition
 
-INSTALLED_APPS = [
+jls_extract_var = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'products',
     'bag' ,
 ]
+INSTALLED_APPS = jls_extract_var
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
