@@ -32,6 +32,7 @@ jls_extract_var = [
     'home',
     'products',
     'bag' ,
+    'checkout' ,
 ]
 INSTALLED_APPS = jls_extract_var
 
